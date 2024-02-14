@@ -1,6 +1,8 @@
 {
     "name": "antoinebonin/matomo",
+    "description": "Wrapper around Matomo API for any PHP code",
     "type": "library",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Antoinebonin\\Matomo\\": "src/"
