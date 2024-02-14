@@ -8,7 +8,7 @@ $finder = (new PhpCsFixer\Finder())
 
 return (new PhpCsFixer\Config())
     ->setRules([
-        '@PhpCsFixer:risky' => true,
+        '@PhpCsFixer' => true,
         'modernize_strpos' => true,
         '@PSR12' => true,
         'phpdoc_summary' => false,

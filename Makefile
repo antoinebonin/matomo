@@ -17,5 +17,9 @@ cs-fix:
 infection:
 	php vendor/bin/infection -s
 
+.PHONY: deptrac
+deptrac:
+	php vendor/bin/deptrac
+
 .PHONY: test-all
-test-all: cs phpstan phpunit infection
+test-all: deptrac cs phpstan phpunit
