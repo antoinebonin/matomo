@@ -2,6 +2,7 @@
     "name": "antoinebonin/matomo",
     "description": "Wrapper around Matomo API for any PHP code",
     "type": "library",
+    "version": "1.0.0",
     "license": "proprietary",
     "autoload": {
         "psr-4": {
@@ -30,6 +31,6 @@
         }
     },
     "require": {
-        "php": "^8.2"
+        "php": "^8.0"
     }
 }
